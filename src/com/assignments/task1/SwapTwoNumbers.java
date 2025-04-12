@@ -39,10 +39,6 @@ public class SwapTwoNumbers {
         first = first-second;
         
         System.out.printf("Numbers after Swap- First: %d and Second: %d\n\n", first, second);
-        
-        
-        
-        
 
 	}
 
