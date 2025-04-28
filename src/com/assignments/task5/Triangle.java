@@ -1,7 +1,7 @@
 package com.assignments.task5;
 
 public class Triangle {
-	int side1, side2, side3;
+	private int side1, side2, side3;
 
 	Triangle() {
 		side1 = 3;

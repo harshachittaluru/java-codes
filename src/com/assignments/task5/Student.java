@@ -1,8 +1,8 @@
 package com.assignments.task5;
 
 public class Student {
-	String name;
-	int enrollmentNo;
+	private String name;
+	private int enrollmentNo;
 
 	Student() {
 		name = "Amay";
