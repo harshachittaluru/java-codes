@@ -1,4 +1,4 @@
-package com.assignments.task6;
+package com.assignments.task7;
 
 import java.util.Map;
 import java.util.Scanner;

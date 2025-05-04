@@ -1,4 +1,4 @@
-package com.assignments.task6;
+package com.assignments.task7;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -21,9 +21,9 @@ public class SubArraySum {
 			currentSum += nums[i];
 
 			if (map.containsKey(currentSum - target)) {
-				for (int startIdx : map.get(currentSum - target)) {
+				for (int start : map.get(currentSum - target)) {
 
-					System.out.println("Subarray: " + Arrays.toString(Arrays.copyOfRange(nums, startIdx + 1, i + 1)));
+					System.out.println("Subarray: " + Arrays.toString(Arrays.copyOfRange(nums, start + 1, i + 1)));
 				}
 			}
 

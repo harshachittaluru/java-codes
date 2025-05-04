@@ -1,4 +1,4 @@
-package com.assignments.task6;
+package com.assignments.task7;
 
 public class MaxInArray {
 	public static void main(String[] args) {
